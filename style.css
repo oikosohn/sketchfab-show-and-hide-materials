@@ -313,7 +313,6 @@ a:not([href]):not([tabindex]):focus {
     margin-right: auto !important;
 }
 
-
 .mx-auto {
     margin-left: auto !important;
 }
@@ -579,35 +578,9 @@ ul.nested.active {
     background-color: #004085;
 }
 
-@media (max-width: 576px) {
-    .input-button-group {
-        flex-direction: column;
-        gap: 8px;
-    }
 
-    .uid-input, .submit-btn {
-        width: 100%;
-    }
-}
-
-/* Viewer Section Styles */
 .viewer-section {
     padding: 0 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .form-group {
-        flex-direction: column;
-    }
-    
-    .uid-input {
-        width: 100%;
-    }
-    
-    .submit-btn {
-        width: 100%;
-    }
 }
 
 .button-group {
@@ -635,13 +608,14 @@ ul.nested.active {
     background-color: #1e7e34;
 }
 
+
 @media (max-width: 768px) {
-    .button-group {
+    .input-button-group {
         flex-direction: column;
+        gap: 8px;
     }
-    
-    .submit-btn,
-    .download-btn {
+
+    .uid-input, .submit-btn {
         width: 100%;
     }
 }
