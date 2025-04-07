@@ -7,8 +7,11 @@ A web-based 3D model viewer that allows users to load and interact with Sketchfa
 - Load Sketchfab models using their UID
 - Show/hide individual model parts
 
-
 ## Usage
+
+👉 Check out the live demo here: [https://oikosohn.github.io/sketchfab-show-and-hide-materials/](https://oikosohn.github.io/sketchfab-show-and-hide-materials/)
+
+<video src="./assets/demo.mp4"> </video>
 
 1. Enter a Sketchfab model UID in the input field
 2. Click "Load Model" button
