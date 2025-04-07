@@ -1,4 +1,4 @@
-# Sketchfab Show and Hide Materials Viewer
+# Sketchfab Show and Hide Materials
 
 A web-based 3D model viewer that allows users to load and interact with Sketchfab models using their UID. The viewer provides a navigation tree for easy model part selection and visibility control.
 
